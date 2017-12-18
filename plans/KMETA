@@ -158,22 +158,13 @@
   group: openshift
   url: github.com/karmab/kcli/plans/openshift
   file: upstream.yml
-  description: Upstream Openshift 3.8.0 based on oc cluster up
+  description: Upstream Openshift 3.7.0 based on oc cluster up
   numvms: 1
-  memory: 6184
+  memory: 6144
   template: CentOS-7-x86_64-GenericCloud.qcow2
   parameters:
    template: CentOS-7-x86_64-GenericCloud.qcow2
    memory: 6144
-
-- name: origin38
-  group: openshift
-  url: github.com/karmab/kcli/plans/openshift
-  file: upstream38.yml
-  description: Upstream Openshift 3.8 based on oc cluster up
-  numvms: 1
-  memory: 6144
-  template: CentOS-7-x86_64-GenericCloud.qcow2
 
 - name: origin37
   group: openshift
